@@ -1,5 +1,4 @@
-const eqArrays = require('../eqArrays');
-const assertArraysEqual = require('../assertArraysEqual');
+const { assertArraysEqual } = require('../index');
 
 
 assertArraysEqual([1, 4, 8], [1, 4, 8]);
